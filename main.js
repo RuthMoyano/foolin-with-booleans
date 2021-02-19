@@ -2,9 +2,48 @@
  * YOUR CODE BELOW! *
  ********************/
 
-
-
-
+function moreThan5(num) {
+  return num > 5;
+}
+function isNewTopScore(score) {
+  return score >5;
+}
+function isInDanger(grade) {
+  return grade >= 60 && grade <= 71;
+}
+function isCoasting(grade) {
+  return grade >= 72 && grade <= 83;
+}
+function isSucceeding(grade) {
+  return grade >= 84 && grade <= 92;
+}
+function isFailing(grade) {
+  return grade < 60;
+}
+function isAcing(grade) {
+  return grade > 92;
+}
+function isStudent(role) {
+  return role === "student";
+}
+function isTeacher(role) {
+  return role === "teacher";
+}
+function isAdmin(role) {
+  return role === "admin";
+}
+function isElementary(role) {
+  return role === "elementary";
+}
+function areDifferentPeople(name, name1) {
+  return name === 'colin' || name1 === 'col';
+}
+function notAnElementarySchoolAdministrator(role, role1) {
+  return role !== 'elementary' || role1 !== 'admin';
+}
+function isMiddleSchoolTeacher(role, level) {
+  return role === 'teacher' && level >= 6 && level <= 8;
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
