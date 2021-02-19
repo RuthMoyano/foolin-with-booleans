@@ -36,7 +36,7 @@ function isElementary(role) {
   return role === "elementary";
 }
 function areDifferentPeople(name, name1) {
-  return name === 'colin' || name1 === 'col';
+  return name !== name1;
 }
 function notAnElementarySchoolAdministrator(role, role1) {
   return role !== 'elementary' || role1 !== 'admin';
